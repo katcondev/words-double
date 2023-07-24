@@ -9,12 +9,16 @@
 .history
 .svn/
 migrate_working_dir/
+.vscode/
 
 # IntelliJ related
 *.iml
 *.ipr
 *.iws
 .idea/
+*.android/
+*.ios/
+*.vscode/
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
@@ -34,6 +38,8 @@ env
 .pub-cache/
 .pub/
 /build/
+.dart_tool.version
+.pubspec.lock
 
 # Symbolication related
 app.*.symbols
@@ -47,3 +53,22 @@ app.*.map.json
 /android/app/release
 
 lib/firebase_options.dart
+
+# Logs and crashlytics
+**/crashlytics/
+**/logs/
+**/captures/
+**/flutter-report/
+
+# Build artifacts
+*.apk
+*.aab
+*.xcarchive
+*.ipa
+*.dart_tool
+*.gradle
+build/
+
+# Dependency lock files
+.lock
+.podspec.lock
