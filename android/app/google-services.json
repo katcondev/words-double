@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "862029008594",
+    "project_id": "double-words",
+    "storage_bucket": "double-words.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862029008594:android:3e900f76947ba53bb6270b",
+        "android_client_info": {
+          "package_name": "com.example.double_words"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862029008594-iks0qocua47gaa9lgmbt74atqk7j29l1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7KRPYPPCDs9ZxanM-iZgB2Ij5al5NyGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862029008594-iks0qocua47gaa9lgmbt74atqk7j29l1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "862029008594-2fr140fskfdoh0hc7i629vdib47i0n3e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.doubleWords.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
